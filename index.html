@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
 
-<body>
+    <!--links-->
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli&display=swap"
+      rel="stylesheet"
+    />
 
-</body>
+    <!--scripts-->
+    <script
+      src="https://kit.fontawesome.com/8845105410.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/main.js"></script>
+  </head>
 
+  <body>
+    <!--whole section-->
+    <section id="bg">
+      <!--navbar-->
+      <section class="bg-in">
+        <div class="top-nav">
+          <a href="#"
+            ><img class="nav-img" src="./images/icon-home.png" alt=""
+          /></a>
+          <a href="#"
+            ><img class="nav-img" src="/images/icon-project.png" alt=""
+          /></a>
+          <a href="#"
+            ><img class="nav-img-contact" src="/images/icon-contact.svg" alt=""
+          /></a>
+          <a href="#"
+            ><img class="nav-img" src="/images/icon-social.png" alt=""
+          /></a>
+        </div>
+      </section>
+
+      <!--Homepage-->
+      <section id="home">
+        <section class="home-page">
+          <div class="profile">
+            <img class="profile-pic" src="/images/profile.png" alt="" />
+          </div>
+          <div class="pro-text">
+            <h1>Bilguun M.</h1>
+          </div>
+          <div class="pro-text-small">
+            <h3>
+              Freelancer front-end web developer
+            </h3>
+          </div>
+        </section>
+      </section>
+      <!--arrow-->
+      <section id="arrow">
+        <div class="arrow-icon">
+          <a onclick="toggler()">
+            <i class="fas fa-chevron-down"></i>
+          </a>
+        </div>
+
+        <div class="arrow-txt">
+          <p>About me</p>
+        </div>
+        <div id="myDIV">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla natus
+            nam iure maiores quam, laudantium odit aliquam qui asperiores modi.
+          </p>
+        </div>
+      </section>
+    </section>
+  </body>
 </html>

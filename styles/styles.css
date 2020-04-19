@@ -1,0 +1,164 @@
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-image: url(/images/bg.png);
+  background-size: cover;
+  height: 100%;
+  z-index: -1000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*navbar*/
+#bg {
+
+  display: block;
+  background-image: url(/images/bg.png);
+  background-size: cover;
+  height: 100%;
+  z-index: -1000;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.top-nav {
+  text-align: center;
+  padding: 3.5% 0%;
+}
+
+.top-nav a {
+  padding: 0% 6%;
+
+}
+
+.nav-img {
+  height: 40px;
+  transition: 0.5s;
+
+}
+
+.nav-img:hover {
+  filter: hue-rotate(45deg);
+  -webkit-filter: hue-rotate(32deg);
+  -moz-filter: hue-rotate(32deg);
+}
+
+.nav-img-contact {
+  height: 35px;
+  color: #1C6EA4;
+  transition: 0.5s;
+
+}
+
+.nav-img-contact:hover {
+  filter: hue-rotate(45deg);
+  -webkit-filter: hue-rotate(29deg);
+  -moz-filter: hue-rotate(29deg);
+
+}
+
+.bg-in {
+  background-color: white;
+  border: 0px solid #1C6EA4;
+  border-radius: 0px 0px 100px 100px;
+  margin: 0% 20%;
+  height: 13%;
+
+}
+
+/*homepage*/
+
+.home-page {
+  background-color: white;
+  border: 0px solid #1C6EA4;
+  border-radius: 100px;
+  margin: 0% 33%;
+  height: 14%;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 9%;
+}
+
+.profile-pic {
+  height: auto;
+  width: 50%;
+  padding: 10% 0%;
+}
+
+.pro-text,
+.pro-text-small {
+  text-align: center;
+
+}
+
+/*
+font-family: 'Josefin Sans',
+sans-serif;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'EB Garamond',
+serif;
+*/
+.pro-text h1,
+.pro-text-small h3 {
+  font-size: 150%;
+  pointer-events: none;
+}
+
+.pro-text h1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 250%;
+  font-weight: 100;
+  background: -webkit-linear-gradient(rgb(113, 19, 175), rgb(224, 20, 173));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pro-text-small h3 {
+  font-family: 'Muli',
+    sans-serif;
+  font-size: 100%;
+  font-weight: 100;
+  background: -webkit-linear-gradient(rgb(146, 34, 77), rgb(138, 47, 67));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 50px;
+
+}
+
+.pro-text {
+  margin: -50px 0px;
+}
+
+/*about me toggle*/
+#arrow {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-chevron-down {
+  font-size: 50px;
+  color: #fff;
+  margin: -10px 0px;
+  transition: 0.5s;
+}
+
+.fa-chevron-down:hover {
+  color: rgb(210, 145, 248);
+}
+
+.arrow-txt {
+  color: rgb(221, 219, 219);
+  font-family: 'Muli',
+    sans-serif;
+  pointer-events: none;
+  margin-top: -20px;
+}
