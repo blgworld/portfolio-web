@@ -9,11 +9,8 @@ html {
 /*navbar*/
 #bg {
   display: block;
-<<<<<<< HEAD
-  
-=======
-  background-image: url(https://github.com/blgworld/portfolio-web/blob/master/images/bg.png);
->>>>>>> 8df9acf81d11b274a779837be9d44c29b422b311
+
+  background-image: url("https://github.com/blgworld/portfolio-web/blob/master/images/bg.png?raw=true");
   background-size: cover;
   height: 100%;
   z-index: -1000;
@@ -155,7 +152,6 @@ serif;
   pointer-events: none;
   margin-top: -20px;
 }
-<<<<<<< HEAD
 
 /*toggler arrow*/
 .myDIV {
@@ -266,5 +262,3 @@ serif;
     margin-top: 15%;
   }
 }
-=======
->>>>>>> 8df9acf81d11b274a779837be9d44c29b422b311
