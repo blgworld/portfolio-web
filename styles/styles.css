@@ -10,7 +10,7 @@ html {
 #bg {
 
   display: block;
-  background-image: url(./images/bg.png);
+  background-image: url(https://github.com/blgworld/portfolio-web/blob/master/images/bg.png);
   background-size: cover;
   height: 100%;
   z-index: -1000;
