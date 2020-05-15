@@ -10,9 +10,9 @@ html {
 #bg {
   display: block;
 
-  background-image: url("https://github.com/blgworld/portfolio-web/blob/master/images/bg.png?raw=true");
+  background-image: url("https://i.ibb.co/fpGVg8N/bg.png");
   background-size: cover;
-  height: 100%;
+  min-height: 100vh;
   z-index: -1000;
   background-position: center;
   background-repeat: no-repeat;
@@ -158,6 +158,7 @@ serif;
   text-align: center;
   pointer-events: none;
 }
+
 .intro {
   font-family: "Muli";
   color: #bd2d69;
@@ -175,48 +176,109 @@ serif;
   font-weight: bold;
   color: #1c6ea4;
 }
+
 .div-txt-bg {
   padding-top: 6%;
   padding-bottom: 2%;
 }
+
 .div-txt-sml {
   margin: 0 10%;
   line-height: 27pt;
   padding-bottom: 8%;
 }
+
 /*skills*/
 .columns {
   font-family: "Muli";
   border-radius: 120px;
   margin: 5% auto;
-  height: 200px;
+  height: 350px;
   width: 50%;
   -webkit-box-shadow: 0px 0px 17px -2px rgba(69, 8, 69, 0.39);
   -moz-box-shadow: 0px 0px 17px -2px rgba(69, 8, 69, 0.39);
   box-shadow: 0px 0px 17px -2px rgba(69, 8, 69, 0.39);
 }
+
 .column {
   float: left;
   width: 33.33%;
   padding: 5% 0%;
 }
+
 .column h1 {
   padding-top: 0;
-  color: #bd2d69;
+  color: #1c6ea4;
 }
+
+.column h2 {
+  font-size: 95%;
+  text-align: center;
+  margin: 15%;
+  color: #1c6ea4;
+  font-weight: bolder;
+}
+
 .column i {
   font-size: 35px;
-  color: #1c6ea4;
+  color: #bd2d69;
   transition: 0.5s;
   pointer-events: all;
 }
+
 .column i:hover {
-  color: #bd2d69;
+  color: #1c6ea4;
   font-size: 40px;
 }
+
 .column p {
   margin: -20px 0px;
+  color: #bd2d69;
 }
+
+/*testimonial*/
+
+.testimonial {
+  font-family: "Muli";
+  border-radius: 40px;
+  margin: 5% auto;
+  height: 100px;
+  width: 50%;
+  -webkit-box-shadow: 0px 0px 17px -2px rgba(69, 8, 69, 0.39);
+  -moz-box-shadow: 0px 0px 17px -2px rgba(69, 8, 69, 0.39);
+  box-shadow: 0px 0px 17px -2px rgba(69, 8, 69, 0.39);
+}
+
+.testimonial p {
+  padding-top: 2%;
+}
+
+.testimonial h1 {
+  margin-top: -1%;
+  color: rgb(77, 77, 77);
+  font-weight: normal;
+  font-size: 130%;
+}
+
+.ts-1 {
+  width: 35%;
+  margin-left: 25%;
+
+}
+
+.ts-2 {
+  width: 35%;
+  margin-right: 25%;
+
+}
+
+.ts-3 {
+  width: 35%;
+  margin-left: 25%;
+
+}
+
+
 .up-arrow {
   pointer-events: all;
   font-family: "Muli";
@@ -229,36 +291,12 @@ serif;
   box-shadow: 0px 0px 17px -2px rgba(69, 8, 69, 0.39);
   background-color: #bd2d69;
 }
+
 .up-arrow a {
   text-decoration: none;
 }
+
 .up-arrow p {
   padding-top: 15px;
   color: rgba(255, 255, 255, 0.815);
-}
-@media only screen and (max-width: 650px) {
-  .bg-in {
-    margin: 0% 2%;
-    height: 9%;
-  }
-  .home-page {
-    margin: 0% 10%;
-    margin-bottom: 10%;
-    margin-top: 20%;
-  }
-  .intro {
-    width: 90%;
-    margin-top: 20%;
-    margin-bottom: 20%;
-  }
-  .columns {
-    width: 91%;
-  }
-  .column {
-    margin-top: 3%;
-  }
-  .up-arrow {
-    width: 10%;
-    margin-top: 15%;
-  }
 }

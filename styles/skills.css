@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* font-family: 'M PLUS Rounded 1c',
+sans-serif;
+font-family: 'Varela Round',
+sans-serif; */
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.circle {
+    background-color: white;
+    margin: 2em 1.7em;
+    border: #6427c5 solid 1px;
+    border-radius: 50%;
+}
+
+
+
+.sec,
+.thi {
+    background-color: transparent;
+    border: white solid 1px;
+    transition: 0.3s;
+
+}
+
+.circle-bg {
+    background-color: white;
+    margin: 2em 1.7em;
+    border: #6427c5 solid 1px;
+    border-radius: 50%;
+}
+
+.circle-bg-ant {
+    background-color: transparent;
+    border: white solid 1px;
+    transition: 0.3s;
+}
+
+
+
+.fir:hover {
+    background-color: white;
+    border: #6427c5 solid 1px;
+
+}
+
+.thi:hover {
+    background-color: white;
+
+    border: #6427c5 solid 1px;
+}
+
+.sec:hover {
+    background-color: white;
+    border: #6427c5 solid 1px;
+
+}
+
+.img-1,
+.img-2,
+.img-3 {
+    display: block;
+    height: 8em;
+    width: 8em;
+    margin: 0em;
+    padding: 2em;
+    filter: invert(16%) sepia(91%) saturate(3042%) hue-rotate(259deg) brightness(94%) contrast(98%);
+    cursor: pointer;
+}
+
+.img-1:hover {
+    filter: invert(16%) sepia(91%) saturate(3042%) hue-rotate(259deg) brightness(94%) contrast(98%);
+
+}
+
+.img-2 {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(19deg) brightness(103%) contrast(101%);
+
+}
+
+.img-3 {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(19deg) brightness(103%) contrast(101%);
+}
+
+
+
+.img-2:hover {
+    filter: invert(16%) sepia(91%) saturate(3042%) hue-rotate(259deg) brightness(94%) contrast(98%);
+
+}
+
+.img-3:hover {
+    filter: invert(16%) sepia(91%) saturate(3042%) hue-rotate(259deg) brightness(94%) contrast(98%);
+}
+
+.img-bg {
+    display: block;
+    height: 8em;
+    width: 8em;
+    margin: 0em;
+    padding: 2em;
+    filter: invert(16%) sepia(91%) saturate(3042%) hue-rotate(259deg) brightness(94%) contrast(98%);
+    cursor: pointer;
+}
+
+
+
+.img-bg-ant {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(19deg) brightness(103%) contrast(101%);
+
+}
+
+#skills-texts {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.ui-txt,
+.res-txt,
+.code-txt {
+    text-align: center;
+    background-color: white;
+    width: 100vh;
+    height: 50vh;
+    border-radius: 75px;
+
+}
+
+.ui-txt p,
+.res-txt p,
+.code-txt p {
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+    margin-top: 1.7em;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: blue;
+}
+
+p {
+    text-align: justify;
+    width: 80%;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%);
+    font-family: 'Muli',
+        sans-serif;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    line-height: 1.3em;
+    font-weight: 800;
+    color: rgb(44, 44, 44);
+}
+
+span {
+    font-weight: bold;
+    color: rgb(57, 9, 189);
+}

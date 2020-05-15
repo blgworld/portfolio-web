@@ -1,0 +1,91 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+
+
+.design-sel,
+.front-sel {
+    background-color: white;
+    height: 6em;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    margin: 0vh -27em;
+    margin-top: -80em;
+
+}
+
+
+
+.txtDes,
+.txtFro {
+    background-color: white;
+    min-height: 100vh;
+    width: 115vh;
+    margin-top: 12em;
+    border-radius: 25px;
+}
+
+.txt-des,
+.txt-fro {
+    text-align: center;
+}
+
+.com,
+.mul {
+    height: 4em;
+    width: 4em;
+    filter: invert(17%) sepia(95%) saturate(2152%) hue-rotate(260deg) brightness(107%) contrast(95%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.com:hover {
+    filter: invert(38%) sepia(38%) saturate(7378%) hue-rotate(260deg) brightness(100%) contrast(102%);
+}
+
+.mul:hover {
+    filter: invert(38%) sepia(38%) saturate(7378%) hue-rotate(260deg) brightness(100%) contrast(102%);
+}
+
+.pro-img-10,
+.des-img-10 {
+    text-align: center;
+
+}
+
+.des-img-10 {
+    margin-top: 12em;
+    margin-bottom: -3em;
+}
+
+.pro-img-1,
+.pro-img-2,
+.pro-img-3,
+.des-img-1,
+.des-img-2,
+.des-img-3 {
+    margin: 2em 0em;
+    height: auto;
+    width: 40em;
+    -webkit-box-shadow: 0px 0px 49px -19px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 49px -19px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 49px -19px rgba(0, 0, 0, 0.75);
+    transition: .5s;
+}
+
+.pop-up:hover {
+    width: 39em;
+    padding: 0em;
+    margin: 2em 0em;
+}
